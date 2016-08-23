@@ -24,13 +24,14 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/fish"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentEnd="false"
+        android:id="@+id/imageButton"
+        android:background="@drawable/fish"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
-        android:background="@drawable/Fish"
-        android:clickable="true"
-        android:layout_below="@+id/you_what" />
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/you_what"
+         />
+
 </RelativeLayout>

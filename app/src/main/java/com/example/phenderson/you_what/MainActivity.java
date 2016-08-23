@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
         final TextView firstTextView = (TextView) findViewById(R.id.you_what);
         Button firstButton = (Button) findViewById(R.id.you_what);
-        final MediaPlayer mp_what = MediaPlayer.create(this, R.raw.YOU_WHAT);
+        final MediaPlayer mp_what = MediaPlayer.create(this, R.raw.youwhat);
 
         firstButton.setOnClickListener(new View.OnClickListener(){
 
